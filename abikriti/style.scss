@@ -163,6 +163,7 @@ html {
     }
   }
   .col2 {
+    position: relative;
     width: 100%;
     display: flex;
     align-items: center;
@@ -171,7 +172,12 @@ html {
     img {
       height: 60vh;
       width: auto;
-      border: 5px solid rgb(207, 161, 107);
+      border: 3px solid rgb(207, 161, 107);
+      transition: all 0.5s ease-in-out;
+      &:hover{
+        transform: scale(1.03);
+        filter: saturate(1.2);
+      }
     }
   }
   }
@@ -200,6 +206,7 @@ html {
       background-size: cover;
       background-repeat: no-repeat;
       margin-bottom: 20px;
+      
     }
     span{
       font-size: 25px;
@@ -212,7 +219,13 @@ html {
       img {
         height: 40vh;
         width: auto;
-        border: 5px solid rgb(207, 161, 107);
+        border: 3px solid rgb(207, 161, 107);
+        
+      transition: all 0.5s ease-in-out;
+      &:hover{
+        transform: scale(1.03);
+        filter: saturate(1.2);
+    }
       }
     }
   }
@@ -374,6 +387,8 @@ footer {
     }
   }
 }
+
+
 
 // Animations
 @keyframes intro-top {
@@ -572,6 +587,22 @@ footer {
           }
           width: 100%;
         }
+      }
+    }
+  }
+
+  .section8{
+    .col2{
+      width:80%;
+    }
+    .col3{
+      width: 80%;
+      margin-top: 25px;
+      margin-left: 0;
+      display: flex;
+      justify-content: center;
+      img {
+        max-width: 90%;
       }
     }
   }
