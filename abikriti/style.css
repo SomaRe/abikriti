@@ -119,7 +119,7 @@ html {
   padding: 0 20px 0 0;
 }
 
-.section2 .col2 p:nth-child(3) {
+.section2 .col2 p:nth-child(3) span {
   font-style: italic;
   font-weight: bold;
 }
@@ -425,6 +425,15 @@ html {
   color: black;
 }
 
+.section8 .col1 .title {
+  font-family: indian;
+  color: #cfa16b;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  font-size: 50px;
+  white-space: nowrap;
+}
+
 .section8 .col2 {
   width: 50%;
 }
@@ -483,6 +492,108 @@ html {
   width: 20px;
   height: auto;
   opacity: 0.7;
+}
+
+.section8 .col2 .main-team .contact-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px;
+}
+
+.section8 .col2 .main-team .contact-card h4 {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.section8 .col2 .main-team .contact-card .call {
+  width: 100%;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section8 .col2 .main-team .contact-card .call img {
+  width: 18px;
+  height: auto;
+}
+
+.section8 .col2 .main-team .contact-card .call span {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.section8 .col2 .main-team .contact-card .whatsapp button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.section8 .col2 .main-team .contact-card .whatsapp button img {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  width: 18px;
+  height: auto;
+}
+
+.section8 .col2 .main-team .contact-card .whatsapp span {
+  margin-left: 10px;
+  color: white;
+  font-family: "Satisfy", cursive;
+}
+
+.section8 .col2 .main-team .contact-card .send_mail button {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.section8 .col2 .main-team .contact-card .send_mail button img {
+  width: 20px;
+  height: auto;
+}
+
+.section8 .col2 .main-team .contact-card .send_mail span {
+  margin-left: 10px;
+  color: white;
+  font-family: "Satisfy", cursive;
 }
 
 .section8 .col3 {
@@ -630,10 +741,6 @@ footer .col2 .img {
   .section2 .col2 {
     padding: 20px 50px;
     text-align: justify;
-  }
-  .section2 .col2 p:nth-child(3) {
-    font-style: italic;
-    font-weight: bold;
   }
   .section3 {
     margin-top: 30px;
@@ -789,6 +896,9 @@ footer .col2 .img {
   }
   .section7 .row .col2 .categories h2 {
     margin-top: 20px;
+  }
+  .section8 {
+    margin-top: 50px;
   }
   .section8 .col2 {
     width: 80%;
