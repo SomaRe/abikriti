@@ -6,6 +6,7 @@
 
 * {
   margin: 0;
+  border-color: white;
 }
 
 html {
@@ -353,7 +354,7 @@ html {
 
 .section7 .col2 .gallery .load-more p {
   padding: 10px;
-  border: white 2px solid;
+  border: 2px solid #ffffff;
   border-radius: 10px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -414,7 +415,7 @@ html {
   padding: 5px 10px;
   margin: 5px 0;
   text-align: center;
-  border: 2px solid white;
+  border: 2px solid #ffffff;
   border-radius: 5px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -549,14 +550,12 @@ html {
   padding: 5px;
   cursor: pointer;
   background-color: transparent;
-  border: 1px solid white;
+  border: 1px solid #ffffff;
   border-radius: 5px;
   width: 100%;
 }
 
 .section8 .col2 .main-team .contact-card .whatsapp button img {
-  -webkit-filter: invert(1);
-          filter: invert(1);
   width: 18px;
   height: auto;
 }
@@ -580,7 +579,7 @@ html {
           justify-content: center;
   padding: 5px;
   cursor: pointer;
-  border: 1px solid white;
+  border: 1px solid #ffffff;
   border-radius: 5px;
   background-color: transparent;
 }
